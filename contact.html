@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RebaMotaki Consultants</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-main">REBAMOTAKI</span>
+                <span class="logo-sub">— CONSULTANTS —</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="iso.html">ISO Certification</a></li>
+            <li><a href="bbbee.html">B-BBEE Compliance</a></li>
+            <li><a href="skills.html">Skills Development</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiry.html">Get Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+          
+                <div class="contact-form-container">
+                    <h3>Schedule Your Free Consultation</h3>
+                    <p class="form-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="industry">Industry *</label>
+                            <select id="industry" name="industry" required>
+                                <option value="">Select Industry</option>
+                                <option value="construction">Construction</option>
+                                <option value="ict">ICT</option>
+                                <option value="transport">Transport</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select Service</option>
+                                <option value="iso">ISO Certification</option>
+                                <option value="bbbee">B-BBEE Compliance</option>
+                                <option value="skills">Skills Development</option>
+                                <option value="multiple">Multiple Services</option>
+                                <option value="notsure">Not Sure Yet</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <p class="form-note">We respect your privacy and will not share your information.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section">
+        <div class="container">
+            <h2 class="cta-title">Let's Start Your Compliance Journey</h2>
+            <p class="cta-text">Contact us today to discuss how we can help your business achieve regulatory excellence.</p>
+            <div class="cta-buttons">
+                <a href="tel:+27792995681" class="btn btn-light"><i class="fas fa-phone"></i> Call Now</a>
+                <a href="mailto:info@rebamotaki.co.za" class="btn btn-outline-light"><i class="fas fa-envelope"></i> Email Us</a>
+            </div>
+        </div>
+    </section>
+      
+
+    <!-- Mobile Side Drawer -->
+    <div class="side-drawer" id="sideDrawer">
+        <button class="close-drawer" id="closeDrawer">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="drawer-logo">
+            <h2>REBAMOTAKI</h2>
+            <p>— CONSULTANTS —</p>
+        </div>
+        <ul class="drawer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="iso.html">ISO Certification</a></li>
+            <li><a href="bbbee.html">B-BBEE Compliance</a></li>
+            <li><a href="skills.html">Skills Development</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiry.html" class="drawer-cta">Get Quote</a></li>
+        </ul>
+    </div>
+
+    <main class="main-content">
+        <h1 class="section-title">Contact Us</h1>
+        
+        <div class="container">
+            <!-- Introduction -->
+            <div class="text-center mb-40">
+                <p style="font-size: 1.2rem; color: var(--accent-color); max-width: 800px; margin: 0 auto;">
+                    Get in touch with our team for professional compliance consulting services. We're here to help your business succeed.
+                </p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-top: 40px;">
+                
+                <!-- Contact Form -->
+                <div>
+                    <div class="info-card">
+                        <h2 style="color: var(--primary-color); margin-bottom: 25px; text-align: center;">Send Us a Message</h2>
+                        
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" class="form-control" placeholder="Your Company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" class="form-control" placeholder="your@email.com" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="+27 79 123 4567">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" class="form-control">
+                                    <option value="">Select a service</option>
+                                    <option value="iso">ISO Certification</option>
+                                    <option value="bbbee">B-BBEE Compliance</option>
+                                    <option value="skills">Skills Development</option>
+                                    <option value="multiple">Multiple Services</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" class="form-control" placeholder="How can we help you?" rows="5" required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>
+                                Send Message
+                            </button>
+                        </form>
+                        
+                        <div id="successMessage" class="success-message">
+                            <i class="fas fa-check-circle" style="margin-right: 10px;"></i>
+                            Thank you for your message! We will get back to you within 24 hours.
+                        </div>
+                        
+                        <p style="margin-top: 20px; color: var(--medium-gray); font-size: 0.9rem; text-align: center;">
+                            * Required fields
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="map-container">
+                  <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.123456789012!2d28.123456!3d-25.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA3JzI0LjQiUyAyOMKwMDcnMjQuNCJF!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 8px;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+            </div>
+            
+            <!-- Emergency Contact -->
+            <div class="info-card mt-40" style="background: linear-gradient(135deg, var(--primary-color), #2d3748); color: white;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; align-items: center;">
+                    <div>
+                        <h3 style="color: white; margin-bottom: 15px;">Need Immediate Assistance?</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9);">
+                            For urgent compliance matters or emergency consultations, contact us directly.
+                        </p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="display: inline-flex; align-items: center; gap: 15px; background: rgba(255, 255, 255, 0.1); padding: 15px 25px; border-radius: 8px;">
+                            <i class="fas fa-phone-alt" style="font-size: 1.5rem; color: var(--secondary-color);"></i>
+                            <div>
+                                <div style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.8);">Emergency Line</div>
+                                <div style="font-size: 1.3rem; font-weight: bold; color: white;">+27 79 299 5681</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- FAQ Section -->
+            <div class="mt-60">
+                <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 40px;">Frequently Asked Questions</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                    <div class="info-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-question-circle" style="color: var(--secondary-color);"></i>
+                            Response Time?
+                        </h4>
+                        <p>We respond to all inquiries within 24 hours during business days.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-question-circle" style="color: var(--secondary-color);"></i>
+                            Consultation Fees?
+                        </h4>
+                        <p>Initial consultations are always free. We provide transparent pricing for all our services.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-question-circle" style="color: var(--secondary-color);"></i>
+                            Virtual Meetings?
+                        </h4>
+                        <p>Yes, we offer online consultations via Zoom, Teams, or Google Meet for your convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="main-content">
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-top: 40px;">
+            <!-- Contact Info -->
+            <div>
+                <div style="background: var(--white); padding: 30px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px;">
+                    <h2 style="color: var(--primary-color); margin-bottom: 25px; font-size: 1.8rem;">Get In Touch</h2>
+                    
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--accent-color); margin-bottom: 15px; font-size: 1.2rem;">
+                            <i class="fas fa-phone" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                            Phone
+                        </h3>
+                        <p style="font-size: 1.1rem; color: var(--text-color);">+27 79 299 5681</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--accent-color); margin-bottom: 15px; font-size: 1.2rem;">
+                            <i class="fas fa-envelope" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                            Email
+                        </h3>
+                        <p style="font-size: 1.1rem; color: var(--text-color);">info@rebamotaki.co.za</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--accent-color); margin-bottom: 15px; font-size: 1.2rem;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                            Address
+                        </h3>
+                        <p style="font-size: 1.1rem; color: var(--text-color);">
+                            403 Ben Viljoen Street<br>
+                            Pretoria North<br>
+                            Pretoria, 0182<br>
+                            South Africa
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 style="color: var(--accent-color); margin-bottom: 15px; font-size: 1.2rem;">
+                            <i class="fas fa-clock" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                            Business Hours
+                        </h3>
+                        <p style="font-size: 1.1rem; color: var(--text-color);">
+                            Monday - Friday: 8:00 AM - 5:00 PM<br>
+                            Saturday: 9:00 AM - 1:00 PM<br>
+                            Sunday: Closed
+                        </p>
+                    </div>
+                </div>
+                
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Rebamotaki Consultants</h3>
+                <p>Professional compliance solutions for businesses in Construction, ICT, and Transport sectors.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+27 79 299 5681</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@rebamotaki.co.za</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>403 Ben Viljoen Street, Pretoria North, 0182</span>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="iso.html">ISO Certification</a></li>
+                    <li><a href="bbbee.html">B-BBEE Compliance</a></li>
+                    <li><a href="skills.html">Skills Development</a></li>
+                    <li><a href="enquiry.html">Free Consultation</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2024 Rebamotaki Consultants. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rebamotaki Consultants</title>
+    <meta name="description" content="Contact Rebamotaki Consultants for compliance solutions. Get in touch via phone, email, or visit our office in Pretoria.">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+                
+                <!-- Social Media -->
+                <div style="background: var(--white); padding: 30px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-align: center;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 20px;">Connect With Us</h3>
+                    <div style="display: flex; justify-content: center; gap: 20px; font-size: 1.8rem;">
+                        <a href="#" style="color: var(--primary-color); transition: var(--transition);">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" style="color: var(--primary-color); transition: var(--transition);">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" style="color: var(--primary-color); transition: var(--transition);">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" style="color: var(--primary-color); transition: var(--transition);">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
